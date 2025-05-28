@@ -2,6 +2,12 @@
 
 BookingApp, otel rezervasyonları ve kullanıcı yönetimi için geliştirilmiş bir Web API projesidir. Katmanlı mimari prensibine uygun şekilde yapılandırılmış olan bu proje, yazılım geliştirmede yaygın olarak kullanılan modern desenleri ve teknolojileri içermektedir.
 
+---
+
+![Image](https://github.com/user-attachments/assets/b7a8456e-34c9-4499-bce6-aa7353032fb4)
+
+---
+
 ## Proje Katmanları
 
 - **BookingApp.Business**  
