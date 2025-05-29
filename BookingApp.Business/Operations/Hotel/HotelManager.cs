@@ -222,7 +222,7 @@ namespace BookingApp.Business.Operations.Hotel
                 throw new Exception("Otel bilgileri güncellenirken bir hata ile karşılaşıldı.");
             }
 
-            var hotelFeatures = _hotelFeatureRepository.GetAll(x => x.HotelId == x.HotelId).ToList();
+            var hotelFeatures = _hotelFeatureRepository.GetAll(x => x.HotelId == hotel.Id).ToList();
 
             foreach (var feature in hotelFeatures)
             {
